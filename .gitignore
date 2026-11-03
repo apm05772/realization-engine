@@ -1,0 +1,27 @@
+# Python / SageMath generated files
+__pycache__/
+*.py[cod]
+*.sage.py
+.ipynb_checkpoints/
+
+# Editor and OS
+.idea/
+.vscode/
+.DS_Store
+*~
+
+# Research artifacts: intentionally outside the public core
+research/
+archive/
+checkpoints/
+*.sobj
+*.sagews
+*.ipynb
+*.pdf
+*.tex
+*.zip
+*.log
+*.bak
+*.json
+.env
+.env.*
