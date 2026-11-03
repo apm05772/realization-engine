@@ -1,6 +1,8 @@
-# Realization Engine — generic SageMath toolkit
+# Realization Engine — computational algebraic geometry in SageMath
 
-A research-oriented **SageMath/Python toolkit** for studying projective incidence models, algebraic realization spaces and exact-versus-numerical evidence. This is a deliberately **reduced public core** derived from a larger private workspace, not a released research result or a complete research archive.
+**Realization Engine** is a research-oriented SageMath framework for studying **projective incidence configurations and their algebraic realization spaces**. The core provides exact projective and combinatorial methods, symbolic realization charts, algebraic elimination and saturation, and structured records of computational evidence. Optional satellites extend it with arithmetic and numerical tools, finite-field methods, and algebraic-curve computations, including **elliptic and genus-two curves**.
+
+This repository contains a deliberately reduced, research-neutral software core derived from a larger private workspace. It does not publish new mathematical results, application-specific experiments, or a complete research archive.
 
 ## Contents
 
