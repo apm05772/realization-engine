@@ -2,7 +2,7 @@
 
 **Realization Engine** is a research-oriented SageMath framework for studying **projective incidence configurations and their algebraic realization spaces**. The core provides exact projective and combinatorial methods, symbolic realization charts, algebraic elimination and saturation, and structured records of computational evidence. Optional satellites extend it with arithmetic and numerical tools, finite-field methods, and algebraic-curve computations, including **elliptic and genus-two curves**.
 
-This repository contains a deliberately reduced, research-neutral software core derived from a larger private workspace. It does not publish new mathematical results, application-specific experiments, or a complete research archive.
+The structure is divided into several parts: the engine, satellites, and tests. Explanations for each are below. This is essentially a toolbox, meant to showcase what I used in my own personal research and potentially aid others in their own tasks. 
 
 ## Contents
 
@@ -10,7 +10,7 @@ This repository contains a deliberately reduced, research-neutral software core 
 - `satellites/` — optional arithmetic, curve, elliptic-curve, finite-field, genus-2, numerical and p-adic utilities, each registered through a common hook interface.
 - `tests/` — standalone static checks and elementary *synthetic* SageMath smoke tests.
 
-There are **no research datasets, actual arrangement-specific fixtures, results, proof drafts, experimental notebooks, certificates, numerical outputs or binary checkpoints** in this repository. There is no claim that any open mathematical problem is solved by this code.
+While all of these tools are included, there's no guarantee of a proper result emerging from this. Hence why it is important to be careful when using these tools and claiming to see a result; it should be properly verified before making such a claim.
 
 ## Requirements
 
@@ -42,10 +42,6 @@ sage -python tests/smoke.py # executes generic SageMath tests
 
 The core represents primal lines as points of the **dual projective plane**, and intersection multiplicities as collinear flats. It keeps combinatorial incidence conditions separate from the vanishing equations and nonvanishing conditions of a realization chart. Existence of a numerical approximation, success of a finite-field search or failure of a bounded search is **not** a proof over the rationals. Evidence-level labels are bookkeeping conventions; they are **not independent mathematical verification**.
 
-Some algorithms and satellite interfaces are experimental, and SageMath or optional-library version differences may require adaptation. The original private workspace included application-specific regression tests; the public distribution replaces them with small synthetic tests, so it is **not regression-equivalent to the private research environment**. No full runtime or cross-version compatibility guarantee is made.
-
-## Publication scope
-
-This repository is a software portfolio artifact. It deliberately excludes ongoing mathematical work and does not document unpublished conclusions. To apply the engine to a specific mathematical problem, supply your own incidence model and independently check your results.
+Some algorithms and satellite interfaces are experimental, and SageMath or optional-library version differences may require adaptation.
 
 No open-source license has been selected. Until one is added by the author, standard copyright restrictions apply.
