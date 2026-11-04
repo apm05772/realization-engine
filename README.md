@@ -44,4 +44,9 @@ The core represents primal lines as points of the **dual projective plane**, and
 
 Some algorithms and satellite interfaces are experimental, and SageMath or optional-library version differences may require adaptation.
 
+## AI Usage
+
+The engine and satellites are **AI-ASSISTED**, especially the code-writing and error-management. I am not claiming to have done it all myself. Even while **AI-ASSISTED**, I have personally verified the code to the best of my ability. Obviously, if any errors are present, open an issue and let me know. I'll be happy to read and fix the code if necessary. 
+
+
 No open-source license has been selected. Until one is added by the author, standard copyright restrictions apply.
